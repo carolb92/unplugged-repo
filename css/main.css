@@ -339,6 +339,11 @@ input[type=button] {
   text-align: center;
 }
 
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .reviews {
   display: flex;
   justify-content: center;
@@ -572,7 +577,8 @@ aside .content-wrapper .form {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  flex-basis: 50%;
+  flex-basis: 33%;
+  padding: 0 20px;
 }
 
 .reviews h2 {
@@ -688,11 +694,12 @@ footer .copyright {
   }
 
   .features h2 {
-    width: 88%;
+    width: 100%;
   }
 
   .features article {
-    flex-basis: 33%;
+    flex-basis: 18%;
+    padding: 0 70px;
   }
 
   .reviews article figure {
