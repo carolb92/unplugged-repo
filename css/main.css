@@ -224,6 +224,14 @@ footer .social p {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: #527158 10px solid;
+  border-radius: 25px;
+  background: #527158;
+}
+
+footer .social-icons i {
+  color: #e2e3ed;
+  font-size: 1.5em;
 }
 
 .footer-content {
@@ -577,8 +585,8 @@ aside .content-wrapper .form {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  flex-basis: 33%;
-  padding: 0 20px;
+  flex-basis: 31%;
+  padding: 0 50px;
 }
 
 .reviews h2 {
@@ -612,6 +620,10 @@ footer .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+footer .social p {
+  margin: 0 20px;
 }
 
 footer .contact {
