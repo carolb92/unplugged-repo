@@ -138,7 +138,7 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
@@ -241,7 +241,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat;
+  background-image: url('../img/jake-melara-30679-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-area .content-wrapper {
@@ -295,7 +298,10 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat;
+  background: url('../img/rawpixel-800820-unsplash1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .features h2 {
