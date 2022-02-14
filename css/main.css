@@ -96,11 +96,14 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul,
 ol {
   list-style-type: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 a {
@@ -108,15 +111,23 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight:normal;
+  font-size: 3.75em;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
+  font-size: 2.25em;
+  font-weight:100;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.125em;
+  font-size: 1.875em;
+  font-weight:normal;
   line-height: 1.5em;
   margin: 20px 0;
 }
@@ -155,6 +166,7 @@ footer {
 /*Header Styles*/
 header {
   padding: 15px 0;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -188,6 +200,7 @@ header nav ul {
 /*Footer Styles*/
 footer {
   flex-direction: column;
+  background-color: #202322;
 }
 
 footer p {
@@ -196,6 +209,7 @@ footer p {
 
 footer .content-wrapper {
   width: 55%;
+  text-align: center;
 }
 
 footer .social-icons {
@@ -227,6 +241,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat;
 }
 
 .hero-area .content-wrapper {
@@ -238,10 +253,37 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 aside .content-wrapper {
 
+}
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .form-description,
@@ -253,6 +295,7 @@ aside .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat;
 }
 
 .features h2 {
@@ -277,12 +320,14 @@ aside .content-wrapper {
 .features article {
   width: 56%; /*solution says 63%?*/
   margin-top: 55px;
+  text-align: center;
 }
 
 .reviews {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -308,6 +353,7 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .contact-section {
@@ -315,6 +361,7 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -327,6 +374,7 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -339,6 +387,10 @@ aside .content-wrapper {
 
 .faq h2 {
   margin-bottom: 45px;
+}
+
+.faq h3 {
+  font-size: 1em;
 }
 
 .faq-content {
