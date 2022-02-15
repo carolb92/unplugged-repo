@@ -102,7 +102,9 @@ body {
 ul,
 ol {
   list-style-type: none;
+  font-size: 1.125em;
   font-weight: bold;
+  padding: 0;
   text-transform: uppercase;
 }
 
@@ -121,17 +123,18 @@ h1 {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight:100;
+  line-height: 1.25em;
 }
 
-h3,
-h4 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.125em;
-  font-weight:normal;
-  line-height: 1;
-  margin: 20px 0;
+h4,
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1;
+    margin: 20px 0;
 }
 
 p {
@@ -259,7 +262,7 @@ header figure {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url('../img/jake-melara-30679-unsplash.jpg') #333;
+  background: url('../img/jake-melara-30679-unsplash.jpg') #333;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -278,7 +281,7 @@ aside {
 }
 
 aside .content-wrapper {
-
+  margin: 25px 0 50px 0;
 }
 
 aside .form {
@@ -307,11 +310,6 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-.form-description,
-.form {
-  margin-top: 25px;
-}
-
 .features {
   display: flex;
   justify-content: center;
@@ -320,10 +318,6 @@ input[type=button] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.features h2 {
-  margin-bottom: 65px;
 }
 
 .features p {
@@ -342,8 +336,8 @@ input[type=button] {
 }
 
 .features article {
-  width: 56%; /*solution says 63%?*/
-  margin-top: 55px;
+  width: 55%; /*solution says 63%?*/
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -364,7 +358,7 @@ input[type=button] {
 }
 
 .reviews h3 {
-  width: 53%;
+  width: 65%;
   margin: 20px 0;
 }
 
@@ -590,17 +584,17 @@ aside .content-wrapper .form {
 }
 
 .reviews h2 {
-  width: 64%;
+  width: 78%;
 }
 
 .reviews h3 {
   margin: 0;
+  width: 75%;
 }
 
 .reviews article {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .reviews article figure {
@@ -608,7 +602,7 @@ aside .content-wrapper .form {
 }
 
 .reviews article div {
-  width: 45%;
+  width: 48%;
 }
 
 footer .content-wrapper {
@@ -666,6 +660,14 @@ footer .copyright {
 }
 
 /*FAQ PAGE*/
+header {
+  padding: 75px 0;
+}
+
+.faq {
+  padding: 90px 0;
+}
+
 .faq .content-wrapper {
   justify-content: space-between;
 }
@@ -706,7 +708,7 @@ footer .copyright {
   }
 
   .features h2 {
-    width: 100%;
+    width: 88%;
   }
 
   .features article {
@@ -724,6 +726,7 @@ footer .copyright {
 
   .reviews h2 {
     width: 75%;
+    margin-bottom: 90px;
   }
 
   .reviews h3 {
@@ -747,6 +750,10 @@ footer .copyright {
   /*FAQ PAGE*/
   .faq h2 {
     width: 100%;
+  }
+
+  footer .copyright {
+    padding: 20px 0;
   }
 }
 
