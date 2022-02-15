@@ -237,10 +237,6 @@ footer .social-icons i {
   font-size: 1.5em;
 }
 
-.footer-content {
-
-}
-
 footer .contact {
   margin-bottom: 50px;
 }
@@ -266,10 +262,7 @@ header figure {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.hero-area .content-wrapper {
-
+  min-height: 500px;
 }
 
 aside {
@@ -324,10 +317,6 @@ input[type=button] {
   margin: 0;
 }
 
-.features .content-wrapper {
-  
-}
-
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -360,14 +349,6 @@ input[type=button] {
 .reviews h3 {
   width: 65%;
   margin: 20px 0;
-}
-
-.reviews .content-wrapper {
-  
-}
-
-.reviews article {
-
 }
 
 /*--------- About Page ----------*/
